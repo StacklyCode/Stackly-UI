@@ -1,26 +1,40 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "baseUrl": "./",
+    "paths": {
+      "@Src/*": ["src/*"],
+      "@Hooks/*": ["src/hooks/*"],
+      "@Apollo/*": ["src/apollo/*"],
+      "@Public/*": ["public/*"],
+      "@Config/*": ["src/config/*"],
+      "@Atoms/*": ["src/components/atoms/*"],
+      "@Molecules/*": ["src/components/molecules/*"],
+      "@Organisms/*": ["src/components/organisms/*"],
+      "@Templates/*": ["src/components/templates/*"],
+      "@Utils/*": ["src/utils/*"],
+      "@Assets/*": ["src/assets/*"],
+      "@Styles/*": ["src/styles/*"]
+    },
+    "target": "es2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve"
   },
+  "exclude": ["node_modules", ".next"],
   "include": [
-    "src"
+    "next-env.d.ts",
+    "emotion.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/api/contact/index.js"
   ]
 }

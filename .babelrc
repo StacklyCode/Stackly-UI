@@ -1,0 +1,41 @@
+{
+  "presets": ["next/babel"],
+
+  "env": {
+    "production": {
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": ["./"],
+            "alias": {
+              "@Src": "./src",
+              "@Hooks": "./src/hooks",
+              "@Apollo": "./src/apollo",
+              "@Public": "./public",
+              "@Config": "./src/config",
+              "@Atoms": "./src/components/atoms",
+              "@Molecules": "./src/components/molecules",
+              "@Organisms": "./src/components/organisms",
+              "@Templates": "./src/components/templates",
+              "@Utils": "./src/utils",
+              "@Assets": "./src/assets",
+              "@Styles": "./src/styles"
+            }
+          }
+        ]
+      ]
+    },
+    "development": {
+      "plugins": [["@emotion", { "sourceMap": true }]]
+    },
+    "test": {
+      "plugins": [
+        [
+          "@emotion",
+          { "sourceMap": true, "autoLabel": true, "labelFormat": "⚡[local]" }
+        ]
+      ]
+    }
+  }
+}

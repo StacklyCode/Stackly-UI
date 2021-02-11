@@ -1,0 +1,68 @@
+{
+  "nav-tag-1": "Nosotros",
+  "nav-tag-2": "Comunidad",
+  "nav-tag-3": "Servicios",
+  "nav-tag-4": "Clientes",
+  "nav-tag-5": "Proyectos",
+  "nav-tag-6": "Contacto",
+
+  "hero-title": "Creamos la solución adecuada para su negocio.",
+  "hero-desc": "Nos encargaremos de darle vida a tu idea y dar el mejor valor a tus usuarios.",
+  "hero-btn-1": "Empecemos un proyecto",
+  "hero-btn-2": "Mire nuestro catálogo",
+
+  "services-title": "Estamos preparados para brindarle el servicio que necesita.",
+  "services-desc": "No importa el proyecto, tenemos las herramientas necesarias para trabajar en tu idea de principio a fin.",
+  "services-tag-1-title": "Diseños",
+  "services-tag-1-desc": "Estrategias de marketing para aportar una identidad fresca y moderna a su marca.",
+  "services-tag-2-title": "Servicios de aplicaciones",
+  "services-tag-2-desc": "Múltiples servicios que se adaptan a sus necesidades en función de su negocio.",
+  "services-tag-3-title": "Aplicaciónes web y móviles",
+  "services-tag-3-desc": "Aplicaciones bien diseñadas para que su idea obtenga comentarios positivos de los usuarios.",
+  "services-tag-4-title": "Consultoría",
+  "services-tag-4-desc": "Para proyectos nuevos o existentes, lo guiaremos en la dirección correcta.",
+  "services-button": "Empecemos un proyecto",
+
+  "projects-title": "No solo construimos. Aportamos valor a su negocio.",
+  "projects-desc": "Estos son una colección de proyectos en los que hemos trabajado hasta ahora. Trabajaremos con usted codo a codo para darle vida a su idea.",
+  "projects-desc-button-1": "¿Listo para comenzar tu proyecto?",
+  "projects-desc-button-2": "Trabajemos juntos",
+  "project-desc-1": "Desarrollo de.",
+  "project-desc-2": "Brindamos una experiencia de usuario atractiva y bien diseñada para el sitio web de Amara, para llevar a los clientes a su plataforma para servicios de flores y aumentar el tráfico y las ventas de sus usuarios.",
+  "project-desc-3": "Sistema creado para el área de Control de Vehículos de la Fiscalía General del Estado de Oaxaca. Administra las solicitudes realizadas por los guardias de vehículos oficiales de todo el estado, genera informes y administra roles dentro del sistema.",
+  "project-desc-4": "Brindamos una experiencia de usuario atractiva y bien diseñada para el sitio web de Amara, para llevar a los clientes a su plataforma para servicios de flores y aumentar el tráfico y las ventas de sus usuarios.",
+  "project-desc-5": "Brindamos una experiencia de usuario atractiva y bien diseñada para el sitio web de Amara, para llevar a los clientes a su plataforma para servicios de flores y aumentar el tráfico y las ventas de sus usuarios.",
+  "project-desc-6": "Brindamos una experiencia de usuario atractiva y bien diseñada para el sitio web de Amara, para llevar a los clientes a su plataforma para servicios de flores y aumentar el tráfico y las ventas de sus usuarios.",
+  "project-desc-7": "Brindamos una experiencia de usuario atractiva y bien diseñada para el sitio web de Amara, para llevar a los clientes a su plataforma para servicios de flores y aumentar el tráfico y las ventas de sus usuarios.",
+  "projects-click": "Haga clic en la imagen para ver el próximo proyecto",
+
+  "clients-title": "Estos Clientes confían en nuestro trabajo.",
+  "clients-desc-1": "Hemos trabajado con varios clientes en todo el mundo. Tienen Clientes en nuestros servicios para dar vida a sus ideas o en un proyecto existente para crear mejores experiencias para sus usuarios.",
+  "clients-desc-2": "La comunicación es un aspecto importante para nosotros. Haciéndonos parte de su viaje, en la construcción de su proyecto, nos ocuparemos de todos los detalles por usted.",
+  "clients-button": "Tu también puedes confiar en nosotros",
+  "client-desc-1": "Es exactamente lo que necesitaba proyectar en la landing del evento (COMFECO), El equipo de Stackly Code se preocupa por la escalabilidad que puede llegar a tener la aplicación, aplican buenas practicas en el código fuente y ademas si ven que pueden optimizar la aplicación lo harán sin dudarlo..",
+  "client-desc-2": "Estrategias de marketing para aportar una identidad fresca y moderna a su marca.",
+  "client-desc-3": "Estrategias de marketing para aportar una identidad fresca y moderna a su marca.",
+
+  "contact-title": "Trabajemos juntos y hagamos realidad su idea.",
+  "contact-desc": "Nuestro equipo de ventas está a tu disposición para responder tus preguntas. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+  "contact-input-name": "Tu nombre",
+  "contact-input-subject": "Sujeto",
+  "contact-input-email": "Tu correo electrónico",
+  "contact-input-message": "Escriba su Mensaje aquí ...",
+  "contact-input-send": "Enviar",
+
+  "footer-desc": "Todos los derechos reservados. El contenido de todo el material disponible en este sitio de Internet está protegido por derechos de autor.",
+
+  "about-title": "Somos profesionales comprometidos con brindar las mejores soluciones a nuestros clientes",
+  "about-desc": "En Stackly Code entendemos que el tiempo es el activo más valioso y si lo pone en nuestras manos, nos aseguraremos de traer el mejor producto para sus necesidades.",
+
+  "team-title": "Equipo Stackly Code",
+  "team-desc-1": "Somos un equipo experimentado de personas increíbles que desean aportar sus conocimientos a sus proyectos.",
+  "team-desc-2": "En Stackly Code, nuestro equipo trabaja de forma remota desde diversas partes del mundo como Perú, México, España, Argentina, República Dominicana y mucho más. Esta es una gran ventaja para nuestros empleados, porque pueden trabajar desde cualquier lugar y entregar un trabajo de calidad sin problemas.",
+  "team-button": "Empecemos un proyecto",
+
+  "community-title": "Ingresa a nuestra comunidad y desarrolla tus habilidades",
+  "community-desc": "Crezca como profesional compartiendo sus conocimientos con otros y participando en proyectos de código abierto.",
+  "community-button": "Únete a la comunidad de Discord"
+}

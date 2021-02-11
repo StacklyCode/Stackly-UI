@@ -1,0 +1,68 @@
+{
+  "nav-tag-1": "About Us",
+  "nav-tag-2": "Community",
+  "nav-tag-3": "Services",
+  "nav-tag-4": "Clients",
+  "nav-tag-5": "Projects",
+  "nav-tag-6": "Contact",
+
+  "hero-title": "We create the right solution for your business.",
+  "hero-desc": "We'll be in charge to bring to life your idea and give the best value for your users.",
+  "hero-btn-1": "Let’s start a project",
+  "hero-btn-2": "View our catalog",
+
+  "services-title": "We’re prepare to give you the service you need.",
+  "services-desc": "No matter the project, we have the necessary tools to work in your idea from the beginning to the end.",
+  "services-tag-1-title": "Designs",
+  "services-tag-1-desc": "Marketing strategies to bring a fresh and modern identity for your brand.",
+  "services-tag-2-title": "Apps services",
+  "services-tag-2-desc": "Multiple services that suit to your needs depending on your bussiness.",
+  "services-tag-3-title": "Web & mobile application",
+  "services-tag-3-desc": "Well crafted applications for your idea to get a positive user feedback.",
+  "services-tag-4-title": "Consultancy",
+  "services-tag-4-desc": "For new or existing project, we’ll guide you in the right direction.",
+  "services-button": "Let’s start a project",
+
+  "projects-title": "We don’t just build. We provide value for your business.",
+  "projects-desc": "These are a collection of projects we have worked so far. We’ll work with you side by side to bring your idea to life.",
+  "projects-desc-button-1": "Ready to start your project ?",
+  "projects-desc-button-2": "Let’s work together.",
+  "project-desc-1": "We delivered a nice looking and well crafted user experience for Amara’s website, to bring customers to their platform for flower services and increasing their user’s traffic and sells",
+  "project-desc-2": "We delivered a nice looking and well crafted user experience for Amara’s website, to bring customers to their platform for flower services and increasing their user’s traffic and sells",
+  "project-desc-3": "System created for the Vehicle Control area in the General Prosecutor of the State of Oaxaca. Manages requests made by official vehicle guards from across the state, generates reports and administers roles within the system.",
+  "project-desc-4": "We delivered a nice looking and well crafted user experience for Amara’s website, to bring customers to their platform for flower services and increasing their user’s traffic and sells",
+  "project-desc-5": "We delivered a nice looking and well crafted user experience for Amara’s website, to bring customers to their platform for flower services and increasing their user’s traffic and sells",
+  "project-desc-6": "We delivered a nice looking and well crafted user experience for Amara’s website, to bring customers to their platform for flower services and increasing their user’s traffic and sells",
+  "project-desc-7": "We delivered a nice looking and well crafted user experience for Amara’s website, to bring customers to their platform for flower services and increasing their user’s traffic and sells",
+  "projects-click": "Click on the image to see the next project",
+
+  "clients-title": "These Clients trust our work.",
+  "clients-desc-1": "We have worked with several clients around the globe. They have Clientsed in our services to bring their ideas to life or in an existing project to create better experiences for their users.",
+  "clients-desc-2": "The communication is an important aspect for us. Taking us part of your journey, on building your project, we’ll take care of all the details for you.",
+  "clients-button": "You can also trust in us",
+  "client-desc-1": "It is exactly what I needed to project on the landing of the event (COMFECO), The Stackly Code team cares about the scalability that the application may have, apply good practices in the source code and also if they see that they can optimize the application they will do it without hesitation.",
+  "client-desc-2": "Marketing strategies to bring a fresh and modern identity for your brand.",
+  "client-desc-3": "Marketing strategies to bring a fresh and modern identity for your brand.",
+
+  "contact-title": "Let’s work together and bring your idea to life.",
+  "contact-desc": "Our sales team is at your disposal to answer your questions. Complete the form and we will contact you as soon as possible.",
+  "contact-input-name": "Your Name",
+  "contact-input-subject": "Subject",
+  "contact-input-email": "Your Email",
+  "contact-input-message": "Type Menssage Here...",
+  "contact-input-send": "Send",
+
+  "footer-desc": "All Rights Reserved. The contents of all material available on this Internet site are copyrighted",
+
+  "about-title": "We’re professionals commited to deliver the best solutions for our clients",
+  "about-desc": "In Stackly Code we understand that time is the most valuable asset and if you put it in our hands, we will make sure to bring the best product for your needs.",
+
+  "team-title": "Stackly Code’s Team",
+  "team-desc-1": "We are an experience team of amazing people wiling to bring their knowledge to your projects.",
+  "team-desc-2": "In Stackly Code, our team works remotely from diverse parts of the world like Peru, Mexico, Spain, Argentina, Dominican Republic and much more. This is a great advantage to our employes, because they can work from anywhere and deliver qualty work without problems.",
+  "team-button": "Let’s start a project",
+
+  "community-title": "Enter our community and develop your skills",
+  "community-desc": "Grow as a professional by sharing your knowledge with others and participating in open source projects.",
+  "community-button": "Join Discord Community"
+}
