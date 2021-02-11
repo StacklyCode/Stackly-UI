@@ -101,37 +101,37 @@ var FooterCopyrighted = _styled["default"].span(_templateObject5(), function (_r
 
 var OrganismFooter = function OrganismFooter(_ref7) {
   var t = _ref7.t;
-  return __jsx(Footer, null, __jsx(_container["default"], {
+  return /*#__PURE__*/_react["default"].createElement(Footer, null, /*#__PURE__*/_react["default"].createElement(_container["default"], {
     fullwidth: true,
     alignItems: "center",
     justifyContent: "center"
-  }, __jsx(FooterContainer, null, __jsx(FooterContainerLogo, null, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(FooterContainer, null, /*#__PURE__*/_react["default"].createElement(FooterContainerLogo, null, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "stacklycodelogo"
-  })), __jsx(_link["default"], {
+  })), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/copyrighted"
-  }, __jsx(FooterCopyrighted, null, t && t("footer-desc"))), __jsx(FooterSocialContainer, null, __jsx("a", {
+  }, /*#__PURE__*/_react["default"].createElement(FooterCopyrighted, null, t && t("footer-desc"))), /*#__PURE__*/_react["default"].createElement(FooterSocialContainer, null, /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
     href: "https://www.facebook.com/StacklyCodeOfficial",
     title: "Facebook Page"
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "facebook"
-  })), __jsx("a", {
+  })), /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
     href: "https://www.linkedin.com/company/68642625/admin/",
     title: "Linkedin Page"
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "linkedin"
-  })), __jsx("a", {
+  })), /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
     href: "https://github.com/StacklyCode",
     title: "Github Page"
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "github"
-  })), __jsx("a", {
+  })), /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
     href: "https://twitter.com/StacklyCode",
     title: "Twitter Page"
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "twitter"
   }))))));
 };

@@ -91,25 +91,25 @@ var MoleculesTagTeam = function MoleculesTagTeam(_ref11) {
       name = _ref11.name,
       description = _ref11.description,
       social = _ref11.social;
-  return __jsx(Tags, null, __jsx("img", {
+  return /*#__PURE__*/_react["default"].createElement(Tags, null, /*#__PURE__*/_react["default"].createElement("img", {
     src: image || "https://i.stack.imgur.com/l60Hf.png",
     alt: name
-  }), __jsx(_title["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_title["default"], {
     align: "left",
     as: "span",
     size: "SubTitleMedium",
     color: "black",
     bold: true
-  }, name || "Some Name"), __jsx(_body["default"], {
+  }, name || "Some Name"), /*#__PURE__*/_react["default"].createElement(_body["default"], {
     align: "left",
     size: "BodySmall",
     color: "light"
-  }, description || "CTO"), __jsx(SocialNetworkContainer, null, social === null || social === void 0 ? void 0 : social.map(function (item, index) {
-    return __jsx("a", {
+  }, description || "CTO"), /*#__PURE__*/_react["default"].createElement(SocialNetworkContainer, null, social === null || social === void 0 ? void 0 : social.map(function (item, index) {
+    return /*#__PURE__*/_react["default"].createElement("a", {
       target: "_blank",
       key: "".concat(item.name, "key").concat(index),
       href: item.url
-    }, __jsx(_icon["default"], {
+    }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
       icon: item.name,
       color: "dark",
       size: "12px"

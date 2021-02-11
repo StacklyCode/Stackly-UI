@@ -85,25 +85,25 @@ var AtomButton = function AtomButton(_ref5) {
       type = _ref5.type;
 
   if (link) {
-    return __jsx(_link["default"], {
+    return /*#__PURE__*/_react["default"].createElement(_link["default"], {
       href: link
-    }, __jsx(Button, {
+    }, /*#__PURE__*/_react["default"].createElement(Button, {
       color: color,
       outline: outline
     }, children || "Some Text"));
   }
 
   if (href) {
-    return __jsx("a", {
+    return /*#__PURE__*/_react["default"].createElement("a", {
       target: "_blank",
       href: href
-    }, __jsx(Button, {
+    }, /*#__PURE__*/_react["default"].createElement(Button, {
       color: color,
       outline: outline
     }, children || "Some Text"));
   }
 
-  return __jsx(Button, {
+  return /*#__PURE__*/_react["default"].createElement(Button, {
     type: type,
     color: color,
     outline: outline

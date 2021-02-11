@@ -134,44 +134,44 @@ var MoleculesTags = function MoleculesTags(_ref4) {
       description = _ref4.description,
       socialnetwork = _ref4.socialnetwork,
       stars = _ref4.stars;
-  return __jsx(Tags, null, __jsx(TagColor, {
+  return /*#__PURE__*/_react["default"].createElement(Tags, null, /*#__PURE__*/_react["default"].createElement(TagColor, {
     color: color
-  }), __jsx(TagContariner, null, img && __jsx("img", {
+  }), /*#__PURE__*/_react["default"].createElement(TagContariner, null, img && /*#__PURE__*/_react["default"].createElement("img", {
     loading: "lazy",
     src: img,
     width: "100%",
     height: "100%",
     alt: ""
-  }), __jsx("div", null, __jsx(_title["default"], {
+  }), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement(_title["default"], {
     as: "span",
     size: "SubTitleSmall",
     color: "black",
     bold: true
-  }, title || "Some Title"), __jsx(_body["default"], {
+  }, title || "Some Title"), /*#__PURE__*/_react["default"].createElement(_body["default"], {
     size: "BodySmall",
     color: "light"
-  }, description || "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), (socialnetwork || stars) && __jsx(InfoTag, {
+  }, description || "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."), (socialnetwork || stars) && /*#__PURE__*/_react["default"].createElement(InfoTag, {
     socialnetwork: socialnetwork
-  }, socialnetwork && __jsx(SocialNetworkContainer, {
+  }, socialnetwork && /*#__PURE__*/_react["default"].createElement(SocialNetworkContainer, {
     stars: stars
   }, socialnetwork.map(function (social) {
-    return __jsx("a", {
+    return /*#__PURE__*/_react["default"].createElement("a", {
       key: social.name,
       href: social.url
-    }, __jsx(_icon["default"], {
+    }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
       icon: social.name,
       color: "dark",
       size: "12px"
     }));
-  })), stars && __jsx(StarContainer, null, __jsx(_icon["default"], {
+  })), stars && /*#__PURE__*/_react["default"].createElement(StarContainer, null, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "star"
-  }), __jsx(_icon["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "star"
-  }), __jsx(_icon["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "star"
-  }), __jsx(_icon["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "star"
-  }), __jsx(_icon["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "star"
   }))))));
 };

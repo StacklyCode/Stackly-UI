@@ -177,35 +177,35 @@ var AtomInput = function AtomInput(_ref11) {
       eye = _useState[0],
       seteye = _useState[1];
 
-  return __jsx(InputStyled, {
+  return /*#__PURE__*/_react["default"].createElement(InputStyled, {
     type: type || "text",
     color: color || "light",
     icon: icon,
     margin: margin
-  }, icon && __jsx(IconContainerStyled, {
+  }, icon && /*#__PURE__*/_react["default"].createElement(IconContainerStyled, {
     color: color
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: icon
-  })), __jsx("label", {
+  })), /*#__PURE__*/_react["default"].createElement("label", {
     htmlFor: id
-  }, placeholder || "Placeholder", type === "textbox" ? __jsx("textarea", {
+  }, placeholder || "Placeholder", type === "textbox" ? /*#__PURE__*/_react["default"].createElement("textarea", {
     id: id,
     value: formik === null || formik === void 0 ? void 0 : formik.values["".concat(id)],
     onChange: formik === null || formik === void 0 ? void 0 : formik.handleChange,
     onBlur: formik === null || formik === void 0 ? void 0 : formik.handleBlur
-  }) : __jsx("input", {
+  }) : /*#__PURE__*/_react["default"].createElement("input", {
     id: id,
     type: (eye ? "text" : type) || "text",
     value: formik === null || formik === void 0 ? void 0 : formik.values["".concat(id)],
     onChange: formik === null || formik === void 0 ? void 0 : formik.handleChange,
     onBlur: formik === null || formik === void 0 ? void 0 : formik.handleBlur
-  }), ((formik === null || formik === void 0 ? void 0 : formik.values["".concat(id)]) !== '' || formik !== null && formik !== void 0 && formik.touched["".concat(id)]) && formik !== null && formik !== void 0 && formik.errors["".concat(id)] ? __jsx(StyledInputError, null, formik.errors["".concat(id)]) : null), type === "password" && __jsx(PasswordContainerStyled, {
+  }), ((formik === null || formik === void 0 ? void 0 : formik.values["".concat(id)]) !== '' || formik !== null && formik !== void 0 && formik.touched["".concat(id)]) && formik !== null && formik !== void 0 && formik.errors["".concat(id)] ? /*#__PURE__*/_react["default"].createElement(StyledInputError, null, formik.errors["".concat(id)]) : null), type === "password" && /*#__PURE__*/_react["default"].createElement(PasswordContainerStyled, {
     onClick: function onClick() {
       seteye(!eye);
     }
-  }, eye ? __jsx(_icon["default"], {
+  }, eye ? /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "eye-close"
-  }) : __jsx(_icon["default"], {
+  }) : /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "eye-open"
   })));
 };

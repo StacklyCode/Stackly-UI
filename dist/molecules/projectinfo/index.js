@@ -83,24 +83,24 @@ var MoleculeProjectInfo = function MoleculeProjectInfo(_ref7) {
       type = _ref7.type,
       description = _ref7.description,
       link = _ref7.link;
-  return __jsx(ProjectInfo, null, __jsx(_image["default"], {
+  return /*#__PURE__*/_react["default"].createElement(ProjectInfo, null, /*#__PURE__*/_react["default"].createElement(_image["default"], {
     background: true,
     image: urlImage
-  }), __jsx(ContainerInfo, null, __jsx(ContainerInfoTitle, null, __jsx(_title["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(ContainerInfo, null, /*#__PURE__*/_react["default"].createElement(ContainerInfoTitle, null, /*#__PURE__*/_react["default"].createElement(_title["default"], {
     as: "span",
     align: "left",
     bold: true,
     size: "SubTitleMedium"
-  }, title), __jsx(_title["default"], {
+  }, title), /*#__PURE__*/_react["default"].createElement(_title["default"], {
     as: "span",
     color: "gray",
     align: "left",
     size: "SubTitleMedium"
-  }, type)), __jsx(_body["default"], {
+  }, type)), /*#__PURE__*/_react["default"].createElement(_body["default"], {
     color: "white",
     align: "left",
     size: "BodyMedium"
-  }, description), __jsx(_button["default"], {
+  }, description), /*#__PURE__*/_react["default"].createElement(_button["default"], {
     outline: true,
     href: link
   }, "View project")));

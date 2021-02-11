@@ -134,20 +134,20 @@ var AtomToggleList = function AtomToggleList(_ref11) {
   (0, _react.useEffect)(function () {
     setoption(language);
   });
-  return __jsx(ToggleListStyled, {
+  return /*#__PURE__*/_react["default"].createElement(ToggleListStyled, {
     outline: outline,
     onClick: function onClick() {
       return settoggle(!toggle);
     }
-  }, __jsx(ContainerTitleStyled, {
+  }, /*#__PURE__*/_react["default"].createElement(ContainerTitleStyled, {
     outline: outline,
     toggle: toggle
-  }, __jsx("span", null, option || (object === null || object === void 0 ? void 0 : object.options[0])), __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement("span", null, option || (object === null || object === void 0 ? void 0 : object.options[0])), /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "arrow"
-  })), toggle && __jsx(ContainerOptionsStyled, {
+  })), toggle && /*#__PURE__*/_react["default"].createElement(ContainerOptionsStyled, {
     outline: outline
   }, object === null || object === void 0 ? void 0 : object.options.map(function (e) {
-    return __jsx("button", {
+    return /*#__PURE__*/_react["default"].createElement("button", {
       type: "button",
       onClick: clickOption,
       key: e

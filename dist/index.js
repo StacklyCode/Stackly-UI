@@ -5,114 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "AtomBody", {
-  enumerable: true,
-  get: function get() {
-    return _body["default"];
-  }
-});
-Object.defineProperty(exports, "AtomButton", {
-  enumerable: true,
-  get: function get() {
-    return _button["default"];
-  }
-});
-Object.defineProperty(exports, "AtomContainer", {
-  enumerable: true,
-  get: function get() {
-    return _container["default"];
-  }
-});
-Object.defineProperty(exports, "AtomIcon", {
-  enumerable: true,
-  get: function get() {
-    return _icon["default"];
-  }
-});
-Object.defineProperty(exports, "AtomImage", {
-  enumerable: true,
-  get: function get() {
-    return _image["default"];
-  }
-});
-Object.defineProperty(exports, "AtomInput", {
-  enumerable: true,
-  get: function get() {
-    return _input["default"];
-  }
-});
-Object.defineProperty(exports, "AtomSwitch", {
-  enumerable: true,
-  get: function get() {
-    return _switch["default"];
-  }
-});
-Object.defineProperty(exports, "AtomTitle", {
-  enumerable: true,
-  get: function get() {
-    return _title["default"];
-  }
-});
-Object.defineProperty(exports, "AtomToggleList", {
-  enumerable: true,
-  get: function get() {
-    return _togglelist["default"];
-  }
-});
-Object.defineProperty(exports, "MoleculeCarrusel", {
-  enumerable: true,
-  get: function get() {
-    return _carrusel["default"];
-  }
-});
-Object.defineProperty(exports, "MoleculeProjectInfo", {
-  enumerable: true,
-  get: function get() {
-    return _projectinfo["default"];
-  }
-});
-Object.defineProperty(exports, "MoleculesTagProject", {
-  enumerable: true,
-  get: function get() {
-    return _tagprojects["default"];
-  }
-});
-Object.defineProperty(exports, "MoleculesTags", {
-  enumerable: true,
-  get: function get() {
-    return _tags["default"];
-  }
-});
-Object.defineProperty(exports, "MoleculesTagServices", {
-  enumerable: true,
-  get: function get() {
-    return _tagservices["default"];
-  }
-});
-Object.defineProperty(exports, "MoleculesTagTeam", {
-  enumerable: true,
-  get: function get() {
-    return _tagteam["default"];
-  }
-});
-Object.defineProperty(exports, "OrganismFooter", {
-  enumerable: true,
-  get: function get() {
-    return _footer["default"];
-  }
-});
-Object.defineProperty(exports, "OrganismNavigation", {
-  enumerable: true,
-  get: function get() {
-    return _navegation["default"];
-  }
-});
-Object.defineProperty(exports, "TemplateMain", {
-  enumerable: true,
-  get: function get() {
-    return _templates["default"];
-  }
-});
+exports["default"] = void 0;
 
 var _body = _interopRequireDefault(require("./atoms/body"));
 
@@ -149,3 +42,25 @@ var _footer = _interopRequireDefault(require("./organisms/footer"));
 var _navegation = _interopRequireDefault(require("./organisms/navegation"));
 
 var _templates = _interopRequireDefault(require("./templates"));
+
+var _default = {
+  AtomBody: _body["default"],
+  AtomButton: _button["default"],
+  AtomContainer: _container["default"],
+  AtomImage: _image["default"],
+  AtomIcon: _icon["default"],
+  AtomInput: _input["default"],
+  AtomSwitch: _switch["default"],
+  AtomTitle: _title["default"],
+  AtomToggleList: _togglelist["default"],
+  MoleculeCarrusel: _carrusel["default"],
+  MoleculeProjectInfo: _projectinfo["default"],
+  MoleculesTagProject: _tagprojects["default"],
+  MoleculesTags: _tags["default"],
+  MoleculesTagServices: _tagservices["default"],
+  MoleculesTagTeam: _tagteam["default"],
+  OrganismFooter: _footer["default"],
+  OrganismNavigation: _navegation["default"],
+  TemplateMain: _templates["default"]
+};
+exports["default"] = _default;

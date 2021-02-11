@@ -77,11 +77,11 @@ var AtomContainer = function AtomContainer(_ref10) {
       alignItems = _ref10.alignItems,
       justifyContent = _ref10.justifyContent,
       fullwidth = _ref10.fullwidth;
-  return __jsx(Container, {
+  return /*#__PURE__*/_react["default"].createElement(Container, {
     alignItems: alignItems,
     justifyContent: justifyContent,
     fullwidth: fullwidth
-  }, children || __jsx(ContainerText, null, "This is a Container"));
+  }, children || /*#__PURE__*/_react["default"].createElement(ContainerText, null, "This is a Container"));
 };
 
 var _default = AtomContainer;

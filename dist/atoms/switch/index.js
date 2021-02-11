@@ -69,9 +69,9 @@ var AtomSwitch = function AtomSwitch() {
   var _useContext = (0, _react.useContext)(_ThemeContext["default"]),
       setTheme = _useContext.setTheme;
 
-  return __jsx(SwitchLabelStyled, {
+  return /*#__PURE__*/_react["default"].createElement(SwitchLabelStyled, {
     htmlFor: "SwitchTheme"
-  }, __jsx(SwitchInputStyled, {
+  }, /*#__PURE__*/_react["default"].createElement(SwitchInputStyled, {
     checked: checked,
     onChange: function onChange() {
       console.log(checked);
@@ -88,7 +88,7 @@ var AtomSwitch = function AtomSwitch() {
     type: "checkbox",
     name: "SwitchTheme",
     id: "SwitchTheme"
-  }), __jsx(SwitchSpanStyled, {
+  }), /*#__PURE__*/_react["default"].createElement(SwitchSpanStyled, {
     check: checked
   }));
 };

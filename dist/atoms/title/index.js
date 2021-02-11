@@ -115,7 +115,7 @@ var AtomTitle = function AtomTitle(_ref4) {
       bold = _ref4.bold,
       as = _ref4.as;
   setValues(size);
-  return __jsx(Title, {
+  return /*#__PURE__*/_react["default"].createElement(Title, {
     as: as || tag,
     size: size,
     color: color,

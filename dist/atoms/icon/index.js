@@ -85,10 +85,10 @@ var AtomIcon = function AtomIcon(_ref4) {
       modules: ["@Assets/icons/".concat(icon, ".svg")]
     }
   });
-  return __jsx(_react["default"].Fragment, null, !iconLoad ? __jsx(IconStyled, {
+  return /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, !iconLoad ? /*#__PURE__*/_react["default"].createElement(IconStyled, {
     size: size,
     color: color
-  }, __jsx(DynamicIcon, null)) : __jsx(IconStyledTest, null, " Please Write Correct Icon "));
+  }, /*#__PURE__*/_react["default"].createElement(DynamicIcon, null)) : /*#__PURE__*/_react["default"].createElement(IconStyledTest, null, " Please Write Correct Icon "));
 };
 
 var _default = AtomIcon;

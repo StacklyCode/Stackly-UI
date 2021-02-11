@@ -47,10 +47,10 @@ var Image = _styled["default"].div(_templateObject(), function (_ref) {
 var AtomImage = function AtomImage(_ref3) {
   var background = _ref3.background,
       image = _ref3.image;
-  return __jsx(Image, {
+  return /*#__PURE__*/_react["default"].createElement(Image, {
     background: background,
     getColor: "#fff"
-  }, __jsx("img", {
+  }, /*#__PURE__*/_react["default"].createElement("img", {
     src: image || "https://climate.onep.go.th/wp-content/uploads/2020/01/default-image.png",
     width: "100%",
     height: "100%",

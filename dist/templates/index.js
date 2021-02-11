@@ -34,9 +34,9 @@ var Background = _styled["default"].main(_templateObject());
 var TemplateMain = function TemplateMain(_ref) {
   var children = _ref.children,
       t = _ref.t;
-  return __jsx(Background, null, __jsx(_navegation["default"], {
+  return /*#__PURE__*/_react["default"].createElement(Background, null, /*#__PURE__*/_react["default"].createElement(_navegation["default"], {
     t: t
-  }), children, __jsx(_footer["default"], {
+  }), children, /*#__PURE__*/_react["default"].createElement(_footer["default"], {
     t: t
   }));
 };

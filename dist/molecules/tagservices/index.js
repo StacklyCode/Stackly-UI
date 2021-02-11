@@ -55,15 +55,15 @@ var MoleculesTagServices = function MoleculesTagServices(_ref7) {
   var icon = _ref7.icon,
       title = _ref7.title,
       description = _ref7.description;
-  return __jsx(Tags, null, __jsx(_icon["default"], {
+  return /*#__PURE__*/_react["default"].createElement(Tags, null, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: icon
-  }), __jsx(_title["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_title["default"], {
     align: "left",
     as: "span",
     size: "SubTitleMedium",
     color: "black",
     bold: true
-  }, title || "Some Title"), __jsx(_body["default"], {
+  }, title || "Some Title"), /*#__PURE__*/_react["default"].createElement(_body["default"], {
     align: "left",
     size: "BodySmall",
     color: "light"

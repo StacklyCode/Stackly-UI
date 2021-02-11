@@ -68,7 +68,7 @@ var ProjectsData = [{
 var MoleculeCarrusel = function MoleculeCarrusel(_ref) {
   var data = _ref.data,
       t = _ref.t;
-  return __jsx(_react2.Swiper, {
+  return /*#__PURE__*/_react["default"].createElement(_react2.Swiper, {
     slidesPerView: 4,
     pagination: {
       clickable: true
@@ -92,12 +92,12 @@ var MoleculeCarrusel = function MoleculeCarrusel(_ref) {
       }
     }
   }, data && (data === null || data === void 0 ? void 0 : data.map(function (item) {
-    return __jsx(_react2.SwiperSlide, {
+    return /*#__PURE__*/_react["default"].createElement(_react2.SwiperSlide, {
       style: {
         display: "flex",
         justifyContent: "center"
       }
-    }, __jsx(_tagprojects["default"], {
+    }, /*#__PURE__*/_react["default"].createElement(_tagprojects["default"], {
       t: t,
       key: item.id,
       title: item.title,
@@ -107,12 +107,12 @@ var MoleculeCarrusel = function MoleculeCarrusel(_ref) {
       link: item.link
     }));
   })) || ProjectsData.map(function (item) {
-    return __jsx(_react2.SwiperSlide, {
+    return /*#__PURE__*/_react["default"].createElement(_react2.SwiperSlide, {
       style: {
         display: "flex",
         justifyContent: "center"
       }
-    }, __jsx(_tagprojects["default"], {
+    }, /*#__PURE__*/_react["default"].createElement(_tagprojects["default"], {
       t: t,
       key: item.id,
       title: item.title,

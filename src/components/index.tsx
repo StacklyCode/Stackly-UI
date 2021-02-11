@@ -17,7 +17,7 @@ import OrganismFooter from "@Src/components/organisms/footer";
 import OrganismNavigation from "@Src/components/organisms/navegation";
 import TemplateMain from "@Src/components/templates";
 
-export {
+export default {
   AtomBody,
   AtomButton,
   AtomContainer,

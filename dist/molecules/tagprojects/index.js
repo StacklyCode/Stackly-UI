@@ -85,19 +85,19 @@ var MoleculesTagProject = function MoleculesTagProject(_ref4) {
       link = _ref4.link,
       description = _ref4.description,
       t = _ref4.t;
-  return __jsx(Tags, null, __jsx(TagImageDesc, null, __jsx(TagImage, {
+  return /*#__PURE__*/_react["default"].createElement(Tags, null, /*#__PURE__*/_react["default"].createElement(TagImageDesc, null, /*#__PURE__*/_react["default"].createElement(TagImage, {
     src: img || "https://assets-global.website-files.com/583347ca8f6c7ee058111b55/5f86270f93330c1ddd36c821_best-website-gallery.jpg"
-  }), __jsx(_title["default"], {
+  }), /*#__PURE__*/_react["default"].createElement(_title["default"], {
     align: "left",
     as: "span",
     size: "SubTitleMedium",
     color: "black",
     bold: true
-  }, title || "Some Title"), __jsx(_body["default"], {
+  }, title || "Some Title"), /*#__PURE__*/_react["default"].createElement(_body["default"], {
     align: "left",
     size: "BodySmall",
     color: "light"
-  }, type || "Web | UI/UX")), __jsx(TagDescContainer, null, __jsx(_button["default"], {
+  }, type || "Web | UI/UX")), /*#__PURE__*/_react["default"].createElement(TagDescContainer, null, /*#__PURE__*/_react["default"].createElement(_button["default"], {
     href: link
   }, "View Project")));
 };

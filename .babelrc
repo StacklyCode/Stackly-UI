@@ -1,5 +1,17 @@
 {
-  "presets": ["next/babel"],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ],
+    "next/babel",
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
 
   "env": {
     "production": {
@@ -23,7 +35,8 @@
               "@Styles": "./src/styles"
             }
           }
-        ]
+        ],
+        "@babel/plugin-transform-typescript"
       ]
     },
     "development": {

@@ -217,95 +217,95 @@ var OrganismNavigation = function OrganismNavigation(_ref13) {
       setSidebar = _useState[1];
 
   var router = (0, _router.useRouter)();
-  return __jsx(Navigation, null, __jsx(_container["default"], {
+  return /*#__PURE__*/_react["default"].createElement(Navigation, null, /*#__PURE__*/_react["default"].createElement(_container["default"], {
     fullwidth: true,
     alignItems: "center",
     justifyContent: "space-between"
-  }, __jsx(NavigationContainer, null, __jsx(NavigationLogo, null, router.pathname !== "/" ? __jsx("a", {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationContainer, null, /*#__PURE__*/_react["default"].createElement(NavigationLogo, null, router.pathname !== "/" ? /*#__PURE__*/_react["default"].createElement("a", {
     href: "/"
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "stacklycodelogo"
-  })) : __jsx(_reactScroll.Link, {
+  })) : /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "HeroScroll",
     smooth: true,
     offset: -110
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "stacklycodelogo"
-  }))), __jsx(ToggleContainer, null, __jsx(_togglelist["default"], {
+  }))), /*#__PURE__*/_react["default"].createElement(ToggleContainer, null, /*#__PURE__*/_react["default"].createElement(_togglelist["default"], {
     outline: true,
     object: {
       title: "Lenguajes",
       options: ["en", "es"]
     }
-  })), __jsx(NavigationLinks, null, router.pathname !== "/" ? __jsx(_react["default"].Fragment, null, __jsx(_link["default"], {
+  })), /*#__PURE__*/_react["default"].createElement(NavigationLinks, null, router.pathname !== "/" ? /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ServicesScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-3"))), __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-3"))), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ProjectsScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-5"))), __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-5"))), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ClientsScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-4"))), __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-4"))), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ContactScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-6")))) : __jsx(_react["default"].Fragment, null, __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-6")))) : /*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ServicesScroll",
     smooth: true,
     offset: -140
-  }, __jsx(NavigationLink, null, t && t("nav-tag-3"))), __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-3"))), /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ProjectsScroll",
     smooth: true,
     offset: -140
-  }, __jsx(NavigationLink, null, t && t("nav-tag-5"))), __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-5"))), /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ClientsScroll",
     smooth: true,
     offset: -140
-  }, __jsx(NavigationLink, null, t && t("nav-tag-4"))), __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-4"))), /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ContactScroll",
     smooth: true,
     offset: -140
-  }, __jsx(NavigationLink, null, t && t("nav-tag-6")))), __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-6")))), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/about"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-1"))), __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-1"))), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/community"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-2"), " ", __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-2"), " ", /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     color: "white",
     icon: "new"
-  }))))), __jsx(IconSideBar, {
+  }))))), /*#__PURE__*/_react["default"].createElement(IconSideBar, {
     onClick: function onClick() {
       return setSidebar(!sidebar);
     }
-  }, __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     icon: "menu"
-  })), __jsx(NavigationContainerButtons, null)), sidebar && __jsx(SideBar, null, __jsx(NavigationLinksSidebar, null, __jsx(ContainerSideBar, null), __jsx(_link["default"], {
+  })), /*#__PURE__*/_react["default"].createElement(NavigationContainerButtons, null)), sidebar && /*#__PURE__*/_react["default"].createElement(SideBar, null, /*#__PURE__*/_react["default"].createElement(NavigationLinksSidebar, null, /*#__PURE__*/_react["default"].createElement(ContainerSideBar, null), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/about"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-1"))), __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-1"))), /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/community"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-2"), " ", __jsx(_icon["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-2"), " ", /*#__PURE__*/_react["default"].createElement(_icon["default"], {
     color: "white",
     icon: "new"
-  }))), router.pathname !== "/" ? __jsx(_link["default"], {
+  }))), router.pathname !== "/" ? /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ServicesScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-3"))) : __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-3"))) : /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ServicesScroll",
     smooth: true,
     offset: -60
-  }, __jsx(NavigationLink, null, t && t("nav-tag-3"))), router.pathname !== "/" ? __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-3"))), router.pathname !== "/" ? /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ClientsScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-4"))) : __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-4"))) : /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ClientsScroll",
     smooth: true,
     offset: -60
-  }, __jsx(NavigationLink, null, t && t("nav-tag-4"))), router.pathname !== "/" ? __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-4"))), router.pathname !== "/" ? /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ProjectsScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-5"))) : __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-5"))) : /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ProjectsScroll",
     smooth: true,
     offset: -30
-  }, __jsx(NavigationLink, null, t && t("nav-tag-5"))), router.pathname !== "/" ? __jsx(_link["default"], {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-5"))), router.pathname !== "/" ? /*#__PURE__*/_react["default"].createElement(_link["default"], {
     href: "/#ContactScroll"
-  }, __jsx(NavigationLink, null, t && t("nav-tag-6"))) : __jsx(_reactScroll.Link, {
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-6"))) : /*#__PURE__*/_react["default"].createElement(_reactScroll.Link, {
     to: "ContactScroll",
     smooth: true,
     offset: -40
-  }, __jsx(NavigationLink, null, t && t("nav-tag-6"))))));
+  }, /*#__PURE__*/_react["default"].createElement(NavigationLink, null, t && t("nav-tag-6"))))));
 };
 
 var _default = OrganismNavigation;

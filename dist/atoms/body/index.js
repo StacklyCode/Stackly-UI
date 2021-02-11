@@ -105,7 +105,7 @@ var AtomBody = function AtomBody(_ref5) {
       color = _ref5.color,
       align = _ref5.align,
       bold = _ref5.bold;
-  return __jsx(Body, {
+  return /*#__PURE__*/_react["default"].createElement(Body, {
     size: size,
     color: color,
     align: align,
