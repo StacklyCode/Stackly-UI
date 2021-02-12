@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "outDir": "dist",
     "paths": {
       "@Src/*": ["src/*"],
       "@Hooks/*": ["src/hooks/*"],
@@ -20,23 +21,15 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
     "isolatedModules": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules", ".next"],
-  "include": [
-    "next-env.d.ts",
-    "emotion.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "src/pages/api/contact/index.js"
-  ]
+  "exclude": ["node_modules", ".next", "**/*.js", "src/pages"],
+  "include": ["next-env.d.ts", "emotion.d.ts", "**/*.ts", "**/*.tsx"]
 }

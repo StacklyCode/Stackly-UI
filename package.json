@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "next dev",
     "clean": "rimraf dist",
-    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
+    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__",
+    "build": "npm run clean &&  tsc && tscpaths -p tsconfig.json -s ./src -o ./dist"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,9 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scroll": "^1.8.1",
-    "swiper": "^6.4.11"
+    "swiper": "^6.4.11",
+    "tsconfig-paths": "^3.9.0",
+    "tscpaths": "0.0.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.13",
